@@ -1,0 +1,12 @@
+E:\工作准备\c#练习\demo\Demo.Data\bin\Debug\netstandard2.1\Demo.Domain.dll
+E:\工作准备\c#练习\demo\Demo.Data\obj\Debug\netstandard2.1\Demo.Data.AssemblyInfoInputs.cache
+E:\工作准备\c#练习\demo\Demo.Data\obj\Debug\netstandard2.1\Demo.Data.AssemblyInfo.cs
+E:\工作准备\c#练习\demo\Demo.Data\obj\Debug\netstandard2.1\Demo.Data.csprojAssemblyReference.cache
+E:\工作准备\c#练习\demo\Demo.Data\obj\Debug\netstandard2.1\Demo.Data.csproj.CoreCompileInputs.cache
+E:\工作准备\c#练习\demo\Demo.Data\bin\Debug\netstandard2.1\Demo.Data.deps.json
+E:\工作准备\c#练习\demo\Demo.Data\bin\Debug\netstandard2.1\Demo.Data.dll
+E:\工作准备\c#练习\demo\Demo.Data\bin\Debug\netstandard2.1\Demo.Data.pdb
+E:\工作准备\c#练习\demo\Demo.Data\bin\Debug\netstandard2.1\Demo.Domain.pdb
+E:\工作准备\c#练习\demo\Demo.Data\obj\Debug\netstandard2.1\Demo.Data.csproj.CopyComplete
+E:\工作准备\c#练习\demo\Demo.Data\obj\Debug\netstandard2.1\Demo.Data.dll
+E:\工作准备\c#练习\demo\Demo.Data\obj\Debug\netstandard2.1\Demo.Data.pdb

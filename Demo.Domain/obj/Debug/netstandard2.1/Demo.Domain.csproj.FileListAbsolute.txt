@@ -1,0 +1,9 @@
+E:\工作准备\c#练习\demo\Demo.Domain\bin\Debug\netstandard2.1\Demo.Domain.deps.json
+E:\工作准备\c#练习\demo\Demo.Domain\bin\Debug\netstandard2.1\Demo.Domain.dll
+E:\工作准备\c#练习\demo\Demo.Domain\bin\Debug\netstandard2.1\Demo.Domain.pdb
+E:\工作准备\c#练习\demo\Demo.Domain\obj\Debug\netstandard2.1\Demo.Domain.csprojAssemblyReference.cache
+E:\工作准备\c#练习\demo\Demo.Domain\obj\Debug\netstandard2.1\Demo.Domain.AssemblyInfoInputs.cache
+E:\工作准备\c#练习\demo\Demo.Domain\obj\Debug\netstandard2.1\Demo.Domain.AssemblyInfo.cs
+E:\工作准备\c#练习\demo\Demo.Domain\obj\Debug\netstandard2.1\Demo.Domain.csproj.CoreCompileInputs.cache
+E:\工作准备\c#练习\demo\Demo.Domain\obj\Debug\netstandard2.1\Demo.Domain.dll
+E:\工作准备\c#练习\demo\Demo.Domain\obj\Debug\netstandard2.1\Demo.Domain.pdb
