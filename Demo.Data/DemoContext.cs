@@ -6,12 +6,16 @@ namespace Demo.Data
 {
     public class DemoContext:DbContext
     {
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        public DemoContext(DbContextOptions<DemoContext> options):base(options)
+        {
+
+        }
+        /*protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseLoggerFactory(ConsoleLoggerFactory)
                 .UseSqlServer(
                connectionString: "Data Source=localhost;Initial Catalog=Demo;Integrated Security=True;");
-        }
+        }*/
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<GamePlayer>().HasKey(x => new { x.PlayerId, x.GameId });

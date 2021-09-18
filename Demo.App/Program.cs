@@ -11,8 +11,9 @@ namespace Demo.App
     {
         static void Main(string[] args)
         {
+#if false
             using var context = new DemoContext();
-#if true
+
 
             #region insert
             var serieA = new League
@@ -135,7 +136,7 @@ namespace Demo.App
 
         
             #endregion
-#endif
+
             #region 表之间的关系
             var serieA1 = context.Leagues.Single(x => x.Name == "Serie A");
             var juventus = new Club
@@ -186,9 +187,7 @@ namespace Demo.App
 
             #endregion
 
-            #region 
-
-            #endregion
+#endif
 
         }
     }
