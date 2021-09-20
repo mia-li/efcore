@@ -13,14 +13,15 @@ namespace WebApplication1
     {
         public static void Main(string[] args)
         {
-            CreateHostBuilder(args).Build().Run();
+            CreateHostBuilder(args).Build().Run();//创建web服务器
+            //run 方法会无限循环执行，侦听特定HTTP端口
         }
-
+        //对服务器进行配置
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    webBuilder.UseStartup<Startup>();
+                    webBuilder.UseStartup<Startup>(); //使用startup.cs对中间件进行配置
                 });
     }
 }

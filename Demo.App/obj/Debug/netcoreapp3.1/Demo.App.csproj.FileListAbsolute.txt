@@ -66,3 +66,9 @@ E:\工作准备\c#练习\demo\Demo.App\obj\Debug\netcoreapp3.1\Demo.App.pdb
 E:\工作准备\c#练习\demo\Demo.App\obj\Debug\netcoreapp3.1\Demo.App.genruntimeconfig.cache
 E:\工作准备\c#练习\demo\Demo.App\bin\Debug\netcoreapp3.1\Humanizer.dll
 E:\工作准备\c#练习\demo\Demo.App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+E:\工作准备\c#练习\demo\Demo.App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+E:\工作准备\c#练习\demo\Demo.App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+E:\工作准备\c#练习\demo\Demo.App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Configuration.dll
+E:\工作准备\c#练习\demo\Demo.App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Console.dll
+E:\工作准备\c#练习\demo\Demo.App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+E:\工作准备\c#练习\demo\Demo.App\bin\Debug\netcoreapp3.1\System.Text.Json.dll
