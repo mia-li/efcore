@@ -13,10 +13,10 @@ namespace Demo.Domain
         {
             var player = (Player)validationContext.ObjectInstance;
             //其实可以用来检查所有的属性，不仅限于birthdate
-            if(player!=null&&string.IsNullOrWhiteSpace(player.Name))
+            if(player!=null&&!string.IsNullOrWhiteSpace(player.Name))
             {
                 
-                if (player.DateofBirth > DateTime.Now)
+                if (!player.ValidateDateOfBirth())  //调player对象中validation的方法
                     return new ValidationResult("please provide a proper Birthdate");
             }
             return ValidationResult.Success;

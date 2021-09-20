@@ -6,14 +6,15 @@ using System.Linq;
 using System.Threading.Tasks;
 using Demo.Data;
 using Demo.Domain;
-using WebApplication1.Filters;
+//using WebApplication1.Filters;
 
 namespace WebApplication1.Controllers
 {
     //创建一个controller
     [ApiController]
     [Route("[controller]")]
-    [Version1Discontinue] //resource filter:用于淘汰版本，可以检查uri中是否包含特定route来淘汰
+    //[Version1Discontinue] //resource filter:用于淘汰版本，可以检查uri中是否包含特定route来淘汰
+    //如果有多个controller ，想要将这个resource filter应用到全部，可以在startup.cs里进行配置
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
@@ -73,7 +74,7 @@ namespace WebApplication1.Controllers
         
         [HttpPost]
         [Route("/api/playerv2")]
-        [Ticket_EnsureEnteredDate] //V2的验证是通过action filter -- Ticket_EnsureEnteredDate来执行的
+        //[Ticket_EnsureEnteredDate] //V2的验证是通过action filter -- Ticket_EnsureEnteredDate来执行的
         public IEnumerable<Player> PostV2([FromBody] Player player)
         //先会从body里绑定model，然后如果model类中有required一些要求，会进行验证（可以自定义验证），最后才执行函数体
         {

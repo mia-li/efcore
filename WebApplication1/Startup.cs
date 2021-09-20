@@ -12,7 +12,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Demo.Data;
 using Microsoft.EntityFrameworkCore;
-using WebApplication1.Filters;
+//using WebApplication1.Filters;
 
 namespace WebApplication1
 {
@@ -34,11 +34,12 @@ namespace WebApplication1
             {
                 options.UseSqlServer(Configuration.GetConnectionString("LocalDB"));
             });
+
             //有多个controller ，想要将某个resource filter应用到全部，可以在startup.cs里进行配置
-            services.AddControllers(options =>
+           /* services.AddControllers(options =>
                 {
                     options.Filters.Add<Version1Discontinue>();  //这样就在全局使用这个filter
-                });
+                });*/
         }
 
         //配置要使用的所有中间件
